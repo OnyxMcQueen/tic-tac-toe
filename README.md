@@ -16,7 +16,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 - [ ] Inside the main section, create a header with a title for the game and a container for displaying the current player.
 - [ ] Create a div with a class of "board" that will contain the squares of the game board.
 - [ ] Inside the board div, create nine buttons with a class of "square".
-- [ ] Add a "gameover" banner with a "New Game" button. _This should only be displayed when the game is won or tied._
+- [ ] Add a "gameover-banner" with a "gameover-message" and a "New Game" button. _This should only be displayed when the game is won or tied._
 
 ## Step 3: Styling with CSS
 
@@ -24,7 +24,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 - [ ] Set some basic styles for the body of the document, including a font-family and margin.
 - [ ] Style the header, the title, and the current player container.
 - [ ] Style the board and the individual squares. _Hint: CSS Grid may be helpful here._
-- [ ] Style the "gameover-banner" and "New Game" button. _The banner should be hidden by default._
+- [ ] Style the "gameover-banner", "gameover-message" and "New Game" button. _The banner should be hidden by default._
 
 
 ## Step 4: Adding JavaScript functionality
