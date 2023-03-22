@@ -20,6 +20,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 
 ## Step 3: Styling with CSS
 
+- [ ] Create an empty CSS stylesheet and link it to the HTML file.
 - [ ] Set some basic styles for the body of the document, including a font-family and margin.
 - [ ] Style the header, the title, and the current player container.
 - [ ] Style the board and the individual squares. _Hint: CSS Grid may be helpful here._
@@ -27,6 +28,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 
 ## Step 4: Adding JavaScript functionality
 
+- [ ] Create an empty javascript file and link it to the HTML file.
 - [ ] Select all the squares and add an event listener for a click.
 - [ ] When a square is clicked, add an X or O to the square, depending on which player's turn it is.
 - [ ] Switch between players after each turn.
