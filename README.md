@@ -32,6 +32,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 - [ ] Create an empty javascript file and link it to the HTML file.
 - [ ] Select all the squares and add an event listener for a click.
 - [ ] When a square is clicked, add an X or O to the square, depending on which player's turn it is.
+- [ ] The UI should show which player's turn it is.
 - [ ] Switch between players after each turn.
 - [ ] Check if the game has a winner after each turn.
 - [ ] If there is a winner, update the gameover banner to show an appropriate message and display it.
