@@ -16,7 +16,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 - [ ] Inside the main section, create a header with a title for the game and a container for displaying the current player.
 - [ ] Create a div with a class of "board" that will contain the squares of the game board.
 - [ ] Inside the board div, create nine buttons with a class of "square".
-- [ ] Add a "gameover" banner with a "New Game" button. This should only be displayed when the game is won or tied.
+- [ ] Add a "gameover" banner with a "New Game" button. _This should only be displayed when the game is won or tied._
 
 ## Step 3: Styling with CSS
 
@@ -24,6 +24,7 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 - [ ] Set some basic styles for the body of the document, including a font-family and margin.
 - [ ] Style the header, the title, and the current player container.
 - [ ] Style the board and the individual squares. _Hint: CSS Grid may be helpful here._
+- [ ] Style the "gameover-banner" and "New Game" button. _The banner should be hidden by default._
 
 
 ## Step 4: Adding JavaScript functionality
@@ -32,8 +33,11 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 - [ ] Select all the squares and add an event listener for a click.
 - [ ] When a square is clicked, add an X or O to the square, depending on which player's turn it is.
 - [ ] Switch between players after each turn.
-- [ ] Check if the game is over after each turn. (Could be a winner or a tie.)
-- [ ] If the game is over, update the gameover banner to show an appropriate message for a win or a tie, then display the banner.
+- [ ] Check if the game has a winner after each turn.
+- [ ] If there is a winner, update the gameover banner to show an appropriate message and display it.
+- [ ] Check if the game has a draw after each turn.
+- [ ] If there is a draw, update the gameover banner to show an appropriate message and display it.
+- [ ] The game board should be disabled if it hits either gameover state. 
 - [ ] When the "New Game" button on the gameover banner is clicked, reset the game to its original state.
 
 ## Step 5: Optimization and Stretch Goals
@@ -53,3 +57,6 @@ Hello! In this tutorial, we will be creating Tic-Tac-Toe using HTML, CSS, and Ja
 ## Conclusion
 
 Congratulations on creating your own Tic-Tac-Toe game! Remember to keep practicing and exploring new features in your own projects.
+
+## Updates
+- **3/21/23** After making the video, I made some updates to increase clarity. While the directions may not be an exact match, they should lead to a better outcome.
