@@ -1,0 +1,120 @@
+/* .hidden {
+    display: none;
+} */
+
+body {
+    font-family: "Blokeds", sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1133192531/vector/seamless-pattern.jpg?s=612x612&w=0&k=20&c=vW7M01b6xN3KldHFTMePTE14fLAPhnDKVKCwinZ5R0A=');
+    margin-top: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 90vh;
+    position: relative;
+    width: 70%;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+}
+
+.current_player_container {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 6px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current_player {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.board {
+    background-color: black;
+    gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+
+.square {
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+    font-family: "Blokeds", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.square:hover {
+outline-color: black;
+outline-style: dotted;
+outline-offset: -10px;
+transition: 0.5s ease;
+}
+
+.game_over_banner {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 192px;
+    width: 100%;
+    transition: 0.8s ease;
+}
+
+.hidden {
+    top: -100%;
+}
+
+.game_over_message {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.new_game {
+    background-color: white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+    padding: 7px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new_game:hover {
+    box-shadow: 5px 7px black;
+    transition: 0.3s ease;
+}
