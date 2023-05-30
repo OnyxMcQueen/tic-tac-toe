@@ -7,3 +7,5 @@ Using my knowledge of programming languages and game development concepts, I beg
 By the end of this rewarding journey, I successfully created a fully functional tic-tac-toe game that showcases my programming skills and creativity. This project allowed me to deepen my understanding of game development principles, sharpen my logical thinking abilities, and bring to life a timeless game loved by many.
 
 I am proud to share my tic-tac-toe game with you today, and I hope you enjoy playing it as much as I enjoyed creating it!
+
+Link to my game! -> <https://onyxmcqueen.github.io/tic-tac-toe>
